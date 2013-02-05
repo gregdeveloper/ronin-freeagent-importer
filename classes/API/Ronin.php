@@ -428,9 +428,9 @@ class API_Ronin{
     #Projects in Ronin have many sub-resources,
     #but only the time-tracking component is currently available through the API.
     
-    public function get_projects() {
+    public function get_projects($page = 1) {
         
-        $url = $this->domain.'projects.json';
+        $url = $this->domain.'projects.json?page='.$page;
         
         return json_decode($this->curl_get_file_contents($url));
     }
