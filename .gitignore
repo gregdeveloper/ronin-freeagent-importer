@@ -3,4 +3,4 @@
 /import results invoices
 /import results projects
 /nbproject
-*.DS_STORE
+.DS_STORE
