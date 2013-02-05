@@ -1,0 +1,17 @@
+Ronin to Freeagent Importer
+
+This is a very rough start using PHP-OAuth2
+
+It was enough to get my contacts, projects, invoices and estimates into Freeagent
+
+It has some shortcomings including:
+
+* You must import contacts first so it can link invoices projects and estimates to them
+* If it can't find a contact it won't import
+* It missed about 10% of my items because of errors
+* It won't link invoices to projects so this must be done manually afterwards
+* It doesn't import invoice payments so these must be added manually afterwards
+* It has a very lacking interface - ie. there isn't really one
+* It has NO security, NO validation and very little error checking so use at your own risk!!
+
+I hope this helps some of you and serves as a base for someone else to build a better tool
