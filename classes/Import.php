@@ -47,7 +47,7 @@ class Import{
                     
                     '1' => 'Active',
                     '2' => 'Completed',
-                    '4' => null, //Billable in Ronin
+                    '4' => 'Active', //Billable in Ronin
                 );
                 break;
         }
